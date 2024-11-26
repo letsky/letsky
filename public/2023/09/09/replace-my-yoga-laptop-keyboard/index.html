@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang=zh>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <meta name="description" content="前言这台联想Yoga710是刚上大学买的，更换过内存条、固态硬盘、无线网卡，经历过换主板、换电池，一路走来已经有七个年头了。 最近键盘上的某几个键失效，于是在万能的淘宝上搜索笔记本键盘，惊喜的发现可以换，考虑到卖家说换键盘需要电烙铁，于是买了整个拆机C面，加上触摸板一共129，记录一下更换过程。 安装快递一到迫不及待的打开包装，崭新的不像拆机件。触摸板是单独买的，卖家没写是拆机件，不过原来的触摸板">
+<meta property="og:type" content="article">
+<meta property="og:title" content="联想Yoga710更换键盘">
+<meta property="og:url" content="https://letsky.github.io/blog/2023/09/09/replace-my-yoga-laptop-keyboard/index.html">
+<meta property="og:site_name" content="Blog">
+<meta property="og:description" content="前言这台联想Yoga710是刚上大学买的，更换过内存条、固态硬盘、无线网卡，经历过换主板、换电池，一路走来已经有七个年头了。 最近键盘上的某几个键失效，于是在万能的淘宝上搜索笔记本键盘，惊喜的发现可以换，考虑到卖家说换键盘需要电烙铁，于是买了整个拆机C面，加上触摸板一共129，记录一下更换过程。 安装快递一到迫不及待的打开包装，崭新的不像拆机件。触摸板是单独买的，卖家没写是拆机件，不过原来的触摸板">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://oss.letsky.cn/keyboard.jpg">
+<meta property="og:image" content="https://oss.letsky.cn/motherboard-overview.jpg">
+<meta property="og:image" content="https://oss.letsky.cn/mini-board.jpg">
+<meta property="og:image" content="https://oss.letsky.cn/power.jpg">
+<meta property="og:image" content="https://oss.letsky.cn/motherboard.jpg">
+<meta property="og:image" content="https://oss.letsky.cn/back-of-keyboard.jpg">
+<meta property="og:image" content="https://oss.letsky.cn/speaker.jpg">
+<meta property="og:image" content="https://oss.letsky.cn/keyborad-mistake.jpg">
+<meta property="article:published_time" content="2023-09-09T14:02:05.000Z">
+<meta property="article:modified_time" content="2024-11-26T05:14:46.469Z">
+<meta property="article:author" content="Zhiqiang Chen">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://oss.letsky.cn/keyboard.jpg">
+    
+    
+      
+        
+          <link rel="shortcut icon" href="/blog/images/favicon.ico">
+        
+      
+      
+        
+          <link rel="icon" type="image/png" href="/blog/images/favicon-192x192.png" sizes="192x192">
+        
+      
+      
+        
+          <link rel="apple-touch-icon" sizes="180x180" href="/blog/images/apple-touch-icon.png">
+        
+      
+    
+    <!-- title -->
+    <title>联想Yoga710更换键盘</title>
+    <!-- async scripts -->
+    <!-- Google Analytics -->
+
+
+    <!-- Umami Analytics -->
+
+
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/blog/css/style.css">
+
+    <!-- persian styles -->
+    
+    <!-- rss -->
+    
+    
+	<!-- mathjax -->
+	
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#" aria-label="目录"><i class="fa-solid fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#" aria-label="目录"><i class="fa-solid fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" aria-label="顶部" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fa-solid fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+        <!--
+       --><li><a href="/blog/">首页</a></li><!--
+     --><!--
+       --><li><a href="/blog/about/">关于</a></li><!--
+     --><!--
+       --><li><a href="/blog/archives/">归档</a></li><!--
+     --><!--
+       --><li><a href="/blog/projects/">项目</a></li><!--
+     -->
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" aria-label="上一篇" href="/blog/2023/09/17/make-delicious-dishes-in-five-minute/"><i class="fa-solid fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" aria-label="下一篇" href="/blog/2023/08/22/how-to-repair-switch-joy-con/"><i class="fa-solid fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" aria-label="返回顶部" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa-solid fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" aria-label="分享文章" href="#"><i class="fa-solid fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">上一篇</span>
+      <span id="i-next" class="info" style="display:none;">下一篇</span>
+      <span id="i-top" class="info" style="display:none;">返回顶部</span>
+      <span id="i-share" class="info" style="display:none;">分享文章</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://letsky.github.io/blog/2023/09/09/replace-my-yoga-laptop-keyboard/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://letsky.github.io/blog/2023/09/09/replace-my-yoga-laptop-keyboard/&text=联想Yoga710更换键盘"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://letsky.github.io/blog/2023/09/09/replace-my-yoga-laptop-keyboard/&title=联想Yoga710更换键盘"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://letsky.github.io/blog/2023/09/09/replace-my-yoga-laptop-keyboard/&is_video=false&description=联想Yoga710更换键盘"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=联想Yoga710更换键盘&body=Check out this article: https://letsky.github.io/blog/2023/09/09/replace-my-yoga-laptop-keyboard/"><i class="fa-solid fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://letsky.github.io/blog/2023/09/09/replace-my-yoga-laptop-keyboard/&title=联想Yoga710更换键盘"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://letsky.github.io/blog/2023/09/09/replace-my-yoga-laptop-keyboard/&title=联想Yoga710更换键盘"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://letsky.github.io/blog/2023/09/09/replace-my-yoga-laptop-keyboard/&title=联想Yoga710更换键盘"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://letsky.github.io/blog/2023/09/09/replace-my-yoga-laptop-keyboard/&title=联想Yoga710更换键盘"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://letsky.github.io/blog/2023/09/09/replace-my-yoga-laptop-keyboard/&name=联想Yoga710更换键盘&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://letsky.github.io/blog/2023/09/09/replace-my-yoga-laptop-keyboard/&t=联想Yoga710更换键盘"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    
+    
+      <div id="toc">
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-number">1.</span> <span class="toc-text">前言</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AE%89%E8%A3%85"><span class="toc-number">2.</span> <span class="toc-text">安装</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-number">3.</span> <span class="toc-text">总结</span></a></li></ol>
+      </div>
+    
+  </span>
+</div>
+
+    
+    <div class="content index py4 ">
+        
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle p-name" itemprop="name headline">
+        联想Yoga710更换键盘
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author p-author h-card" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span class="p-name" itemprop="name">Zhiqiang Chen</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2023-09-09T14:02:05.000Z" class="dt-published" itemprop="datePublished">2023-09-09</time>
+        
+      
+    </div>
+
+
+      
+
+      
+
+    </div>
+  </header>
+  
+
+  <div class="content e-content" itemprop="articleBody">
+    <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>这台联想Yoga710是刚上大学买的，更换过内存条、固态硬盘、无线网卡，经历过换主板、换电池，一路走来已经有七个年头了。</p>
+<p>最近键盘上的某几个键失效，于是在万能的淘宝上搜索笔记本键盘，惊喜的发现可以换，考虑到卖家说换键盘需要电烙铁，于是买了整个拆机C面，加上触摸板一共129，记录一下更换过程。</p>
+<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><p>快递一到迫不及待的打开包装，崭新的不像拆机件。触摸板是单独买的，卖家没写是拆机件，不过原来的触摸板已经掉皮了，刚好这次一起换掉。</p>
+<p><img src="https://oss.letsky.cn/keyboard.jpg" alt="到货的C面"></p>
+<p>打开笔记本后盖，断开电池排线，卸下电池螺丝取下电池。</p>
+<p><img src="https://oss.letsky.cn/motherboard-overview.jpg" alt="后盖视角"></p>
+<p>接下来卸下转轴处的螺丝、副板螺丝，取出副板。</p>
+<p><img src="https://oss.letsky.cn/mini-board.jpg" alt="副板"></p>
+<p>断开电源排线，抬起转轴，将dc插口用撬棒拔出，底部是粘胶大力拔起即可。</p>
+<p><img src="https://oss.letsky.cn/power.jpg" alt="dc插孔"></p>
+<p>断开与主板连接的键盘排线、触控板排线、扬声器排线、无线网卡天线、屏幕排线，卸下固定主板的螺丝，将左侧转轴抬起即可将整个主板取下。</p>
+<p><img src="https://oss.letsky.cn/motherboard.jpg" alt="主板"></p>
+<p>取下主板后在取下左右两侧扬声器，由于更换的是整个C面，剩下的部分就不继续拆了，直接将拆下的零件逐步复原。</p>
+<p><img src="https://oss.letsky.cn/back-of-keyboard.jpg" alt="键盘背面"></p>
+<p><img src="https://oss.letsky.cn/speaker.jpg" alt="扬声器"></p>
+<p>安装完成后先不急着装后盖，插上电源启动，检测一下新键盘触控板是否有效，当然也别忘记检测其他功能。</p>
+<p>由于背壳有两种不同型号的螺丝，误装导致C面有凸起的螺丝印，倒也算是独一无二了。</p>
+<p><img src="https://oss.letsky.cn/keyborad-mistake.jpg" alt="小失误"></p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>整个更换过程还算是比较容易的，拆卸过程中转轴是没办法取下，所以安装的时候需要用手将转轴与主板孔位对齐。另屏幕的排线稍长，需要在右边转轴处转个弯才能将排线放下。换完还能再战三年！</p>
+
+  </div>
+</article>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+        
+          <li><a href="/blog/">首页</a></li>
+        
+          <li><a href="/blog/about/">关于</a></li>
+        
+          <li><a href="/blog/archives/">归档</a></li>
+        
+          <li><a href="/blog/projects/">项目</a></li>
+        
+      </ul>
+    </div>
+
+    
+    
+      <div id="toc-footer" style="display: none">
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-number">1.</span> <span class="toc-text">前言</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AE%89%E8%A3%85"><span class="toc-number">2.</span> <span class="toc-text">安装</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-number">3.</span> <span class="toc-text">总结</span></a></li></ol>
+      </div>
+    
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://letsky.github.io/blog/2023/09/09/replace-my-yoga-laptop-keyboard/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://letsky.github.io/blog/2023/09/09/replace-my-yoga-laptop-keyboard/&text=联想Yoga710更换键盘"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://letsky.github.io/blog/2023/09/09/replace-my-yoga-laptop-keyboard/&title=联想Yoga710更换键盘"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://letsky.github.io/blog/2023/09/09/replace-my-yoga-laptop-keyboard/&is_video=false&description=联想Yoga710更换键盘"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=联想Yoga710更换键盘&body=Check out this article: https://letsky.github.io/blog/2023/09/09/replace-my-yoga-laptop-keyboard/"><i class="fa-solid fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://letsky.github.io/blog/2023/09/09/replace-my-yoga-laptop-keyboard/&title=联想Yoga710更换键盘"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://letsky.github.io/blog/2023/09/09/replace-my-yoga-laptop-keyboard/&title=联想Yoga710更换键盘"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://letsky.github.io/blog/2023/09/09/replace-my-yoga-laptop-keyboard/&title=联想Yoga710更换键盘"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://letsky.github.io/blog/2023/09/09/replace-my-yoga-laptop-keyboard/&title=联想Yoga710更换键盘"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://letsky.github.io/blog/2023/09/09/replace-my-yoga-laptop-keyboard/&name=联想Yoga710更换键盘&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://letsky.github.io/blog/2023/09/09/replace-my-yoga-laptop-keyboard/&t=联想Yoga710更换键盘"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fa-solid fa-bars fa-lg" aria-hidden="true"></i> 菜单</a>
+        
+          <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fa-solid fa-list fa-lg" aria-hidden="true"></i> 目录</a>
+        
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fa-solid fa-share-alt fa-lg" aria-hidden="true"></i> 分享</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa-solid fa-chevron-up fa-lg" aria-hidden="true"></i> 返回顶部</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy;
+    
+    
+    2023-2024
+    Zhiqiang Chen
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+        <!--
+       --><li><a href="/blog/">首页</a></li><!--
+     --><!--
+       --><li><a href="/blog/about/">关于</a></li><!--
+     --><!--
+       --><li><a href="/blog/archives/">归档</a></li><!--
+     --><!--
+       --><li><a href="/blog/projects/">项目</a></li><!--
+     -->
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+
+
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'"/>
+
+
+    <!-- jquery -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script>
+
+
+
+
+<!-- clipboard -->
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.7/clipboard.min.js" crossorigin="anonymous"></script>
+  
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"复制到粘贴板！\">";
+    btn += '<i class="fa-regular fa-clone"></i>';
+    btn += '</span>';
+    // mount it!
+    $(".highlight table").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "复制成功！");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+<script src="/blog/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Baidu Analytics -->
+
+<!-- Cloudflare Analytics -->
+
+<!-- Disqus Comments -->
+
+<!-- utterances Comments -->
+
+</body>
+</html>
